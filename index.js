@@ -12,7 +12,7 @@ if(logado != true){
 */
 var link = document.getElementsByClassName('entrar');
 function estalogado() {
-  if (localStorage.getItem("acesso") == "true") {
+  if (sessionStorage.getItem("acesso") == "true") {
     alert("Você já está logado!");
   }else {
     window.location.href = "login.html"
@@ -20,7 +20,7 @@ function estalogado() {
 };
 var link = document.getElementsByClassName('buscador');
 function loginbuscar() {
-  if (localStorage.getItem("acesso") == "true") {
+  if (sessionStorage.getItem("acesso") == "true") {
     window.location.href = "buscar.html"
   }else {
     window.location.href = "login.html"

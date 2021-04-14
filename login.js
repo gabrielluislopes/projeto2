@@ -10,7 +10,7 @@ function logar() {
     })
     .then(function (response) {
       if (response.status == 200) {
-        localStorage.setItem("acesso", true);
+        sessionStorage.setItem("acesso", true);
         window.location.href = "index.html";
       }
       console.log(response);
