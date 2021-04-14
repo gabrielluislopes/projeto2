@@ -17,7 +17,7 @@ function logar() {
     })
     .catch(function (error){
       if (error.status != 200) {
-        alert("Usuário ou senha inválidos!");
+          alert("Usuário ou senha inválidos!");
       }
       console.log(error);
     });

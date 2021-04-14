@@ -39,8 +39,13 @@ body{
   color: white;
   background-color: black;
 }
-ul{
+.container1{
   color: white;
   position: fixed;
-  margin-left: 500px;
+  margin-left: 300px;
+}
+.container2{
+  color: white;
+  position: fixed;
+  margin-left: 800px;
 }
