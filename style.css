@@ -542,6 +542,13 @@ p{
   text-decoration: none;
   text-align: center;
   color: black;
-  line-height: 50px;
+  line-height: 45px;
   border-radius: 15px;
+}
+.buscador{
+  background-color: #e05600;
+  color: black;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
 }

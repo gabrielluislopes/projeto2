@@ -2,7 +2,8 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta http-equiv="content-type" content="text/html" charset="utf-8">
-    <title>Projeto 1 - Gabriel Luís Lopes</title>
+    <title>Projeto 2</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="index.js"></script>
@@ -46,13 +47,14 @@
               <li> <a href="">Links Patrocinados</a></li>
             </ul>
           </li>
+          <li> <button onclick="loginbuscar()" class="buscador" name="button">PESQUISAR</button> </li>
         </ul>
       </nav>
       <nav class="menuMobile flutuante">
         <a href=""><img src="menu.jpg" alt="Menu"></a>
       </nav>
         <div class="Logo flutuante">
-          <img src="Logo-site-reduzida-megalu.png" alt="Logo">
+          <a href="index.html"><img src="Logo-site-reduzida-megalu.png" alt="Logo"></a>
         </div>
         <div class="Logomobile flutuante">
           <img src="Logo-site-reduzida-megalu-laranja.png" alt="Logo-laranja">
@@ -68,11 +70,10 @@
         <div id="contato">
           <a href=""><img src="wpp.jpg" alt="WhatsApp"></a>
         </div>
-        <a class="linklogin entrar" href="login.html">Entrar no Site</a>
+        <button onclick="estalogado()" class="linklogin entrar" name="logar">Entrar no Site</button>
       </div>
 
       <script type="text/javascript" charset="utf-8">
-
       </script>
   </body>
 </html>

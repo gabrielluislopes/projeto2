@@ -12,12 +12,13 @@ function logar() {
       if (response.status == 200) {
         localStorage.setItem("acesso", true);
         window.location.href = "index.html";
-      }else{
-        alert("Usuário ou senha inválidos");
       }
       console.log(response);
     })
     .catch(function (error){
+      if (error.status != 200) {
+        alert("Usuário ou senha inválidos!");
+      }
       console.log(error);
     });
-};
+}
